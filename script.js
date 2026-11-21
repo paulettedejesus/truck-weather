@@ -1,6 +1,5 @@
 const url =
-// "https://api.open-meteo.com/v1/forecast?latitude=35.22709&longitude=-80.84313&current=temperature_2m,wind_speed_10m&temperature_unit=fahrenheit&timezone=auto"
-    "https://api.open-meteo.com/v1/forecast?latitude=35.22709&longitude=-80.84313&current=temperature_2m,wind_speed_10m,is_day,weather_code,precipitation&timezone=America%2FNew_York&wind_speed_unit=mph&temperature_unit=fahrenheit";
+"https://api.open-meteo.com/v1/forecast?latitude=35.22709&longitude=-80.84313&current=temperature_2m,wind_speed_10m,is_day,weather_code,precipitation&timezone=America%2FNew_York&wind_speed_unit=mph&temperature_unit=fahrenheit";
 const button = document.getElementById("check-btn");
 const weatherArea = document.getElementById("weather");
 
