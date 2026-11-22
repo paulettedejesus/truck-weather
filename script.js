@@ -5,6 +5,7 @@ const weatherArea = document.getElementById("weather");
 
 async function getWeather() {
     weatherArea.textContent = "";
+    weatherArea.className = "card bg-light text-dark w-50 m-auto";
     const response = await fetch(url);
     const data = await response.json();
     console.log(data);
